@@ -1,8 +1,8 @@
 {
-	"name": "anmol",
+	"name": "yashvi",
 	"version": "1.1.7",
 	"private": true,
-	"homepage": "https://anmols1.github.io/",
+	"homepage": "",
 	"dependencies": {
 		"-": "^0.0.1",
 		"@testing-library/jest-dom": "^5.11.4",

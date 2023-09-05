@@ -1,5 +1,5 @@
 import React from "react";
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
@@ -12,11 +12,11 @@ const Contact = () => {
 	const onSubmit = (data, e) => {
 		e.preventDefault();
 		
-		emailjs.sendForm('gmail', 'anmolwebsitemailtemplate', e.target, 'YBm4_Zdo_8kauNW2Y').then((result) => {
-			e.target.reset();
-		}, (error) => {
-			console.log(error.text);
-		});
+		// emailjs.sendForm('gmail', 'anmolwebsitemailtemplate', e.target, 'YBm4_Zdo_8kauNW2Y').then((result) => {
+		// 	e.target.reset();
+		// }, (error) => {
+		// 	console.log(error.text);
+		// });
 	};
 	
 	return (
