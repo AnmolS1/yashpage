@@ -1,5 +1,5 @@
 import React from "react";
-// import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
@@ -12,11 +12,11 @@ const Contact = () => {
 	const onSubmit = (data, e) => {
 		e.preventDefault();
 		
-		// emailjs.sendForm('gmail', 'anmolwebsitemailtemplate', e.target, 'YBm4_Zdo_8kauNW2Y').then((result) => {
-		// 	e.target.reset();
-		// }, (error) => {
-		// 	console.log(error.text);
-		// });
+		emailjs.sendForm('yashviswebsite', 'yashvistemplate', e.target, 'YBm4_Zdo_8kauNW2Y').then((result) => {
+			e.target.reset();
+		}, (error) => {
+			console.log(error.text);
+		});
 	};
 	
 	return (
@@ -25,7 +25,7 @@ const Contact = () => {
 			<div className="first">
 				<ul>
 					<li>
-						<input {...register("user_name", { required: true })} type="text" placeholder="Name" />
+						<input {...register("from_name", { required: true })} type="text" placeholder="Name" />
 						{errors.name && errors.name.type === "required" && (
 							<span>Name is required</span>
 						)}
@@ -35,7 +35,7 @@ const Contact = () => {
 					<li>
 						<input
 							{...register(
-								"user_email",
+								"reply_to",
 								{
 									required: "Email is Required",
 									pattern: {

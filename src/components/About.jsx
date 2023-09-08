@@ -29,31 +29,36 @@ const About = () => {
 							</div>
 							<div className="text" data-aos="fade-up" data-aos-duration="1200">
 								<p>
-									I am a dedicated developer with the resume to back it
-									up. My work at iD Tech, teaching multiple classes per
-									week, is just one example of my commitment to
-									consistently improving in all areas. I recently
-									completed my degree in Cognitive Science - Machine
-									Learning and Neural Computation at UCSD in 2 years.
-									During my degree, I worked as an Instructional
-									Apprentice at UCSD and a research assistant at the
-									Security and Cryptography lab at UCSD.
+									I am a passionate student and an aspiring project/
+									product manager with a strong focus on delivering
+									innovative solutions that drive business success.
+									As an ITSS student at The University of Texas at
+									Dallas, most of my time is spent on coursework. These
+									courses include Object-Oriented Programming, Database
+									Fundamentals, and Information Technology for Business.
+									I have gained so much enjoyment from my ITSS courses
+									each semester, and I am excited to learn more each
+									week.
 									<br></br>
-									Currently, I am a Federal Technical Consultant at IBM.
-									I work on the VICCS project for the VA as a
-									HyperScience Analyst. At IBM, I have gained skills in
-									customer management, machine learning, and optical
-									character recognition. I have also earned a
-									certification in Amazon Web Services as a Cloud
-									Practitioner.
+									I have worked on various projects to hone my skills in
+									data analysis and develop a deeper understanding of
+									programming languages such as Java, SQL, and Python. I
+									am also pursuing a certification in AWS. I am a quick
+									learner and have enjoyed the challenges to my critical
+									thinking and problem-solving abilities. As well as the
+									challenge of using numbers to tell a story and convey
+									an idea. 
 									<br></br>
-									My work is consistently high-quality and I will always
-									complete any task put in front of me. Currently, I am
-									looking for a job in ML/AI, especially with relation to NLP.
+									In addition to my technical skills, I possess
+									excellent interpersonal skills that have enabled me to
+									work effectively in collaborative environments. I am a
+									natural team player who enjoys working with others to
+									achieve common goals, approaching every task with a
+									positive attitude and a willingness to learn.
 								</p>
 							</div>
 							<div className="tm_button" data-aos="fade-up" data-aos-duration="1200">
-								<a href="img/resume/resume.pdf" download>Download CV</a>
+								<a href="img/resume/yashvi.pdf" download>Download CV</a>
 							</div>
 						</div>
 						{/* End right */}

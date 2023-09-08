@@ -85,7 +85,7 @@ const CallToAction = () => {
 									<li>
 										<div className="list_inner">
 											<img className="svg" src="img/svg/location.svg" alt="location" />
-											<p>Katy, TX</p>
+											<p>Dallas, TX</p>
 										</div>
 									</li>
 									{/* End single address */}
@@ -93,7 +93,7 @@ const CallToAction = () => {
 									<li>
 										<div className="list_inner">
 											<img className="svg" src="img/svg/phone.svg" alt="phone" />
-											<p><a href="tel:+1 832 870 7177">+1 (832) 870-7177</a></p>
+											<p><a href="tel:+1 832 366 1535">+1 (832) 366-1535</a></p>
 										</div>
 									</li>
 									{/* End silgle address */}

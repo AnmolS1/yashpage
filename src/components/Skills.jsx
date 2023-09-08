@@ -9,7 +9,7 @@ const Skills = () => {
 					<div className="skills_inner">
 						<div className="left" data-aos="fade-right" data-aos-duration="1200">
 							<div className="tm_title">
-								<h3>I have skills in development and research</h3>
+								<h3>I have skills in development, research, and business</h3>
 							</div>
 							<div className="text">
 								<p>
@@ -24,7 +24,7 @@ const Skills = () => {
 							<div className="tokyo_progress">
 								<div className="progress_inner">
 									<span>
-										<span className="label">Cognitive Science</span>
+										<span className="label">Product Management</span>
 										<span className="number">99%</span>
 									</span>
 									<div className="background">
@@ -37,7 +37,7 @@ const Skills = () => {
 								
 								<div className="progress_inner">
 									<span>
-										<span className="label">Machine Learning</span>
+										<span className="label">Data Science</span>
 										<span className="number">95%</span>
 									</span>
 									<div className="background">

@@ -109,12 +109,12 @@ const Slider = () => {
 					<div className="content">
 						<div className="name_wrap">
 							<h3>
-								<span>Anmol</span> Saxena<span className="overlay_effect"></span>
+								<span>Yashvi</span> Shah<span className="overlay_effect"></span>
 								<TextLoop>
-									<span className="loop-text">ML/AI Engineer</span>
+									<span className="loop-text">Product Manager</span>
 									<span className="loop-text">Data Scientist</span>
-									<span className="loop-text">Back-End Developer</span>
-									<span className="loop-text">Cognitive Scientist</span>
+									<span className="loop-text">Software Engineer</span>
+									<span className="loop-text">Business Professional</span>
 								</TextLoop>{" "}
 								<span className="overlay_effect"></span>
 							</h3>

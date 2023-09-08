@@ -2,20 +2,16 @@ import React from "react";
 
 const SocialShare = [
 	{
-		iconName: "github",
-		link: "https://github.com/AnmolS1",
-	},
-	{
-		iconName: "hackerrank",
-		link: "https://www.hackerrank.com/discoinferno_"
-	},
-	{
 		iconName: "facebook",
-		link: "https://www.facebook.com/profile.php?id=100055590279838"
+		link: "https://www.facebook.com/yashvi.shah.503092"
 	},
 	{
 		iconName: "instagram",
-		link: "https://www.instagram.com/anmols_1"
+		link: "https://www.instagram.com/theyashvishah"
+	},
+	{
+		iconName: "linkedin",
+		link: "https://www.linkedin.com/in/yshah-yashvishah/"
 	}
 ];
 
