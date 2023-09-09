@@ -52,60 +52,60 @@ const tabListContent = [
 			}
 		]
 	},
-	{
-		porftoliItems: [
-			{
-				img: "ml",
-				title: "SpamTraining",
-				meta: "Research",
-				portfolioLink: "https://github.com/AnmolS1/SpamTraining",
-				delayAnimation: "0",
-			},
-			{
-				img: "study",
-				title: "SpamStudy",
-				meta: "Research",
-				portfolioLink: "https://github.com/AnmolS1/SpamStudy",
-				delayAnimation: "100",
-			}
-		]
-	},
-	{
-		porftoliItems: [
-			{
-				img: "notion",
-				title: "NotionExt",
-				meta: "Projects",
-				portfolioLink: "https://github.com/AnmolS1/NotionExt",
-				delayAnimation: "200",
-			},
-			{
-				img: "college",
-				title: "PreReq",
-				meta: "Projects",
-				portfolioLink: "https://github.com/AnmolS1/PreReq",
-				delayAnimation: "0",
-			}
-		]
-	},
-	{
-		porftoliItems: [
-			{
-				img: "audio",
-				title: "AudioVisualizer",
-				meta: "Cool Stuff",
-				portfolioLink: "https://github.com/AnmolS1/audio_visualizer",
-				delayAnimation: "100",
-			},
-			{
-				img: "parking",
-				title: "ParkingSystem",
-				meta: "Cool Stuff",
-				portfolioLink: "https://github.com/AnmolS1/ParkingSystem",
-				delayAnimation: "200",
-			}
-		]
-	}
+	// {
+	// 	porftoliItems: [
+	// 		{
+	// 			img: "ml",
+	// 			title: "SpamTraining",
+	// 			meta: "Research",
+	// 			portfolioLink: "https://github.com/AnmolS1/SpamTraining",
+	// 			delayAnimation: "0",
+	// 		},
+	// 		{
+	// 			img: "study",
+	// 			title: "SpamStudy",
+	// 			meta: "Research",
+	// 			portfolioLink: "https://github.com/AnmolS1/SpamStudy",
+	// 			delayAnimation: "100",
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	porftoliItems: [
+	// 		{
+	// 			img: "notion",
+	// 			title: "NotionExt",
+	// 			meta: "Projects",
+	// 			portfolioLink: "https://github.com/AnmolS1/NotionExt",
+	// 			delayAnimation: "200",
+	// 		},
+	// 		{
+	// 			img: "college",
+	// 			title: "PreReq",
+	// 			meta: "Projects",
+	// 			portfolioLink: "https://github.com/AnmolS1/PreReq",
+	// 			delayAnimation: "0",
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	porftoliItems: [
+	// 		{
+	// 			img: "audio",
+	// 			title: "AudioVisualizer",
+	// 			meta: "Cool Stuff",
+	// 			portfolioLink: "https://github.com/AnmolS1/audio_visualizer",
+	// 			delayAnimation: "100",
+	// 		},
+	// 		{
+	// 			img: "parking",
+	// 			title: "ParkingSystem",
+	// 			meta: "Cool Stuff",
+	// 			portfolioLink: "https://github.com/AnmolS1/ParkingSystem",
+	// 			delayAnimation: "200",
+	// 		}
+	// 	]
+	// }
 ];
 
 const Portfolio = () => {
@@ -126,11 +126,11 @@ const Portfolio = () => {
 							
 							<div className="portfolio_filter">
 								<Tabs>
-									<TabList>
+									{/* <TabList>
 										{tabList.map((val, i) => (
 											<Tab key={i}>{val}</Tab>
 										))}
-									</TabList>
+									</TabList> */}
 									{/* End tablist */}
 									
 									<div className="portfolio_list has-effect">

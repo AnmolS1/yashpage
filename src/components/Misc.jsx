@@ -24,7 +24,7 @@ const Misc = () => {
 				<div className="container">
 					<div className="tm_title">
 						<span>misc</span>
-						<h3>What I'm Reading / Working On</h3>
+						<h3>What I'm Reading</h3>
 					</div>
 					{/* End tm_title */}
 					
@@ -47,10 +47,10 @@ const Misc = () => {
 									
 									<div className="details">
 										<h3 className="title">
-											<a href="https://doi.org/10.1002/adma.202200512">3D Printing of 'Organic Electronics'</a>
+											<a href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445306">Whither AutoML? Understanding the Role of Automation in Machine Learning Workflows</a>
 										</h3>
 										<p className="date">
-											By Omid Dadras-Toussi, et al.{" "}<span>16 June 2022</span>
+											By Doris Xin, et al.{" "}<span>07 May 2021</span>
 										</p>
 									</div>
 									{/* End details */}
@@ -79,28 +79,32 @@ const Misc = () => {
 													
 													<div className="details">
 														<h3 className="title">
-															<a href="https://doi.org/10.1002/adma.202200512">3D Printing of 'Organic Electronics'</a>
+															<a href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445306">Whither AutoML? Understanding the Role of Automation in Machine Learning Workflows</a>
 														</h3>
 														<p className="date">
-															Omid Dadras-Toussi, et al.{" "}<span>16 June 2022</span>
+															Doris Xin, et al.{" "}<span>07 May 2021</span>
 														</p>
 													</div>
 													{/* End details */}
 													
 													<div className="description">
 														<p>
-															In this paper it is demonstrated that organic semiconductors
-															could be used in conjunction with 3D printing material in order
-															to produce an organic structure that conducts electricity 10
-															times better than without the semiconductors.
+															The article discusses the role of automation in machine
+															learning (ML) workflows. It argues that while AutoML
+															tools have the potential to make ML more accessible to
+															non-experts, they also have some limitations. For example,
+															AutoML tools can be biased, and they may not be able to
+															produce the best possible models for a given task. The
+															article concludes by arguing that the future of AutoML
+															lies in a partnership between humans and machines. Humans
+															can provide domain expertise and insights that AutoML
+															tools cannot, while AutoML tools can automate the tedium
+															of ML workflows.
 														</p>
 														<blockquote>
-															We anticipate that the presented MPL-compatible OS
-															composite resins will pave the path toward production
-															of soft, bioactive, and conductive microstructures
-															for various applications in the emerging fields of
-															flexible bioelectronics/biosensors, nanoelectronics,
-															organ-on-chips, and immune cell therapies.
+															Instead of full automation being the ultimate goal of AutoML,
+															designers of these tools should focus on supporting a
+															partnership between the user and the AutoML tool.
 														</blockquote>
 													</div>
 													{/* End description */}
@@ -220,10 +224,10 @@ const Misc = () => {
 									
 									<div className="details">
 										<h3 className="title" onClick={toggleModalThree}>
-											<a href="https://github.com/AnmolS1/SpamTraining">Training Machine Learning Models On Spam Emails</a>
+											<a href="https://www.sciencedirect.com/science/article/pii/S2667096822000891">Deep learning in business analytics: A clash of expectations and reality</a>
 										</h3>
 										<p className="date">
-											By Anmol Saxena
+											Marc Schmitt{" "}<span>08 Dec 2022</span>
 										</p>
 									</div>
 									{/* END DETAILS */}
@@ -253,21 +257,34 @@ const Misc = () => {
 													
 													<div className="details">
 														<h3 className="title">
-															<a href="https://github.com/AnmolS1/SpamTraining">Training Machine Learning Models On Spam Emails</a>
+														<a href="https://www.sciencedirect.com/science/article/pii/S2667096822000891">Deep learning in business analytics: A clash of expectations and reality</a>
 														</h3>
 														<p className="date">
-															By Anmol Saxena
+															Marc Schmitt{" "}<span>08 Dec 2022</span>
 														</p>
 													</div>
 													{/* END DETAILS */}
 													
 													<div className="description">
 														<p>
-															For this project, I am attempting to train multiple machine
-															learning models on a set of spam and non-spam emails with the
-															purpose of identifying whether any given email, normalized to
-															a series of data, is spam or not.
+															The article argues that there are several factors that
+															have hindered the adoption of deep learning in business
+															analytics: computational complexity, lack of big data
+															architecture, lack of transparency, skill shortage, and
+															leadership commitment. It also argues that deep learning
+															does not always outperform traditional machine learning
+															models in the case of structured datasets with fixed-length
+															feature vectors. This is because deep learning models
+															are often more complex and require more data to train
+															than traditional machine learning models.
 														</p>
+														<blockquote>
+															The hype around deep learning in business analytics has
+															been high, but the reality is that its adoption has been
+															slow. There are a number of challenges that need to be
+															addressed before deep learning can be widely adopted,
+															but the potential benefits are significant.
+														</blockquote>
 													</div>
 													{/* END DESCRIPTION */}
 												</div>
