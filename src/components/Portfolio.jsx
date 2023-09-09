@@ -9,47 +9,61 @@ const tabListContent = [
 	{
 		porftoliItems: [
 			{
-				img: "ml",
-				title: "SpamTraining",
-				meta: "Research",
-				portfolioLink: "https://github.com/AnmolS1/SpamTraining",
-				delayAnimation: "0",
-			},
-			{
-				img: "study",
-				title: "SpamStudy",
-				meta: "Research",
-				portfolioLink: "https://github.com/AnmolS1/SpamStudy",
-				delayAnimation: "100",
-			},
-			{
-				img: "notion",
-				title: "NotionExt",
+				img: "monitor",
+				title: "Business Analytics",
 				meta: "Projects",
-				portfolioLink: "https://github.com/AnmolS1/NotionExt",
-				delayAnimation: "200",
+				portfolioLink: "",
+				delayAnimation: "0"
 			},
 			{
-				img: "college",
-				title: "PreReq",
-				meta: "Projects",
-				portfolioLink: "https://github.com/AnmolS1/PreReq",
-				delayAnimation: "0",
-			},
-			{
-				img: "audio",
-				title: "AudioVisualizer",
-				meta: "Cool Stuff",
-				portfolioLink: "https://github.com/AnmolS1/audio_visualizer",
-				delayAnimation: "100",
-			},
-			{
-				img: "parking",
-				title: "ParkingSystem",
-				meta: "Cool Stuff",
-				portfolioLink: "https://github.com/AnmolS1/ParkingSystem",
-				delayAnimation: "200",
+				img: "product",
+				title: "Product Improvement",
+				meta: "Research",
+				portfolioLink: "",
+				delayAnimation: "0"
 			}
+			// {
+			// 	img: "ml",
+			// 	title: "SpamTraining",
+			// 	meta: "Research",
+			// 	portfolioLink: "https://github.com/AnmolS1/SpamTraining",
+			// 	delayAnimation: "0",
+			// },
+			// {
+			// 	img: "study",
+			// 	title: "SpamStudy",
+			// 	meta: "Research",
+			// 	portfolioLink: "https://github.com/AnmolS1/SpamStudy",
+			// 	delayAnimation: "100",
+			// },
+			// {
+			// 	img: "notion",
+			// 	title: "NotionExt",
+			// 	meta: "Projects",
+			// 	portfolioLink: "https://github.com/AnmolS1/NotionExt",
+			// 	delayAnimation: "200",
+			// },
+			// {
+			// 	img: "college",
+			// 	title: "PreReq",
+			// 	meta: "Projects",
+			// 	portfolioLink: "https://github.com/AnmolS1/PreReq",
+			// 	delayAnimation: "0",
+			// },
+			// {
+			// 	img: "audio",
+			// 	title: "AudioVisualizer",
+			// 	meta: "Cool Stuff",
+			// 	portfolioLink: "https://github.com/AnmolS1/audio_visualizer",
+			// 	delayAnimation: "100",
+			// },
+			// {
+			// 	img: "parking",
+			// 	title: "ParkingSystem",
+			// 	meta: "Cool Stuff",
+			// 	portfolioLink: "https://github.com/AnmolS1/ParkingSystem",
+			// 	delayAnimation: "200",
+			// }
 		]
 	},
 	// {
